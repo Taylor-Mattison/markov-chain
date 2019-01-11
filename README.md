@@ -2,7 +2,7 @@
 
 [Markov Chain on Wikipedia](https://en.wikipedia.org/wiki/Markov_chain)
 
-###Sample Usage
+### Sample Usage
 ```scala
   import net.taylorjm.markovchain.MarkovChain
   
@@ -15,7 +15,7 @@
   println(result) // A A ... B (Number of A's is randomly chosen. 66% chance of A and 33% chance of B per the trained data.)
 ```
 
-###Example Output
+### Example Output
 ##### Trained using the first 10 chapters of Moby Dick, predicting based on the last 2 words:
 ```text
 Some years ago—never mind how long each one had been a sailor and a full ship. 
